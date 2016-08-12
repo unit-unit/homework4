@@ -1,0 +1,176 @@
+html { 
+background: url('../img/main_background.jpg') no-repeat top center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.mainContainer{
+	background-color: #fff;
+	margin: 0 14%;
+	max-width: 985px;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	height: 935px;
+}
+}
+.header{
+padding-bottom: 50px;
+}
+.logo{
+	background: url('../img/logo.png') no-repeat;
+	width: 309px;
+	height: 175px;
+	display: inline-block;
+	margin-top: 48px;
+}
+.rightColumn{
+	float: right;
+	margin: 15px 30px;
+}
+.contacts{
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #69c;
+	opacity: .8;
+	float: right;
+	line-height: 17px;
+}
+.contacts li{
+	list-style: none;
+}
+.contacts li:first-child{
+	font-weight: 600;
+}
+.flags{
+	clear: right;
+	position: relative;
+	top: 60px;
+	left: 20px;
+}
+ul.flagList li{
+	float: right;
+	list-style: none;
+}
+.flagList a{    
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+	width: 60px;
+	height: 17px;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #69c;
+	text-indent: -15px;
+}
+.india{
+	background: url("../img/india.png") no-repeat;
+}
+.nepal{
+	background: url("../img/nepal.png") no-repeat;
+}
+.tibet{
+	background: url("../img/tibet.png") no-repeat;
+}
+.butan{
+	background: url("../img/butan.png") no-repeat;
+}
+.sri-lanka{
+	background: url("../img/sri-lanka.png") no-repeat;
+}
+.maldives{
+	background: url("../img/maldives.png") no-repeat;
+}
+.mainPicture{
+	background: url("../img/mainphoto.jpg") no-repeat;
+	height: 237px;
+	background-size: cover;
+}
+.menu{
+	position: relative;
+	background: #333;
+	font-size: 14px;
+	border-bottom: 2px solid #000;
+}
+.menu li{
+	display: inline-block;
+	height: 30px;
+}
+.menu a{
+	padding: 5px 30px 5px 30px;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	line-height: 2;
+	cursor: pointer;
+}
+.menu ul li{
+	position: relative;
+}
+.menu ul li ul{
+	display: none;
+	position: absolute;
+}
+.menu li:hover ul{
+	display: block;
+	z-index: 1;
+}
+.menu li ul li {
+	float: none;
+	display: block;
+	background: #333;
+}
+.columns{
+	line-height: 20px;
+	font-family: Tahoma;
+	font-size: 14px;
+	display: inline-block;
+	background: url("../img/columns.jpg") no-repeat;
+	position: relative;
+	width: 970px;
+	opacity: .8;
+	height: 438px;
+}
+.leftSidebar{
+	width: 21%;
+	text-align: center;
+	float: left;
+}
+.content{
+	width: 59%;
+	float: left;
+}
+.rightSidebar{
+	width: 20%;
+	text-align: center;
+	float: right;
+	position: relative;
+	left: 5px;
+}
+h3{
+	line-height: 30px;
+	opacity: .8;
+}
+.footer{
+	text-align: center;
+	color: #ccf;
+	line-height: 30px;
+	font-size: 12px;
+	font-family: Tahoma;
+}
